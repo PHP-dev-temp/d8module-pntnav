@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Handle integration
+ *
+ * Implements hook_page_attachments().
+ */
+function pntnav_page_attachments(&$page) {
+  /**
+   * Add module's main library
+   */
+	$page['#attached']['library'][] = 'pntnav/pntnav-css';
+}
+
+
+function pntnav_theme() {
+    $theme['pntnav'] = [
+      'variables' => ['prevtitle' => NULL, 'nexttitle' => NULL],
+      'template' => 'pntnav'
+    ];
+
+    return $theme;
+  }

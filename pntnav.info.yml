@@ -1,0 +1,11 @@
+name: Prev-Next Title Navigation
+
+description: Custom pager for navigation. Pager is displayed as previous/next content title.
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+ - node
+ - block

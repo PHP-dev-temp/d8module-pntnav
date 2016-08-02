@@ -1,0 +1,5 @@
+pntnav-css:
+  version: 1.x
+  css:
+    theme:
+      /modules/pntnav/css/pntnav.css: {}
